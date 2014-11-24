@@ -1,0 +1,5 @@
+﻿
+<a name="validation"></a>
+<alert type="'danger'" ng-show="tpl.error.getErrors().length > 0" close="tpl.error.setErrors([])">
+    <div ng-repeat="item in tpl.error.getErrors()">{{item}}</div>
+</alert>
